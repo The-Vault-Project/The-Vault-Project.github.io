@@ -1,0 +1,61 @@
+body {
+	font-family: Lato;
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+}
+
+h1 {
+	text-transform: none;
+	text-align: center;
+	font-weight: 300;
+	font-size: 4vw;
+	margin: 20vh auto;
+}
+
+
+h2 {
+	text-transform: none;
+	text-align: center;
+	font-weight: 300;
+	font-size: 2vw;
+	margin: 0 auto;
+}
+
+.phonenumber {
+	margin: 0 auto;
+	text-align: center;
+	background-color: #000;
+	border: white 1px solid;
+	color: #fff;
+	font-weight: 100;
+	font-size: 2vw;
+	width: 30vw;
+	padding: 10px;
+}
+
+.actionbutton {
+	width: 30vw;
+	background-color: #d35400;
+	color: #fff;
+	font-size: 2vw;
+	border-radius: 5px;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin: 10vh auto;
+}
+
+.actionbutton:hover {
+	background-color: #e67e22;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
