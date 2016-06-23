@@ -33,7 +33,7 @@
 
     <h1>Enter your phone number to get started.</h1>
 
-    <div><input type="number" class="phonenumber" maxlength="14" /></div>
+    <div><input id="phonenum" type="number" class="phonenumber" maxlength="14" /></div>
 
     <a href="splash.html"><div class="actionbutton">Let Me In</div></a>
 
@@ -54,6 +54,17 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+
+    <script>
+        document.getElementById('phonenum').onkeypress = function(e)
+        {
+          var event = e || window.event;
+          if(event.keyCode == 13 && this.value!="")
+          {
+             window.location.href = 'http://www.google.com';
+          }
+        }
+    </script>
 
 </body>
 
